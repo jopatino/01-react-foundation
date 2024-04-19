@@ -1,6 +1,8 @@
 import {
+    // BasicFunctions,
     // BasicTypes,
-    ObjectLiterals
+    // ObjectLiterals,
+    Counter,
 } from "./typescript";
 
 function App() {
@@ -9,7 +11,9 @@ function App() {
     <main>
       <h1>Introducción a TS - React</h1>
         {/*<BasicTypes></BasicTypes>*/}
-        <ObjectLiterals></ObjectLiterals>
+        {/*<ObjectLiterals></ObjectLiterals>*/}
+        {/*<BasicFunctions></BasicFunctions>*/}
+        <Counter></Counter>
     </main>
   )
 }

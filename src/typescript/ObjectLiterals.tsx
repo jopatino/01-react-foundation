@@ -13,7 +13,7 @@ interface Address {
 }
 
 export const ObjectLiterals = () => {
-    
+
     const person: Person = {
         age: 27,
         firstName: "Jose",
