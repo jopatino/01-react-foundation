@@ -6,7 +6,7 @@ import {
 } from "./typescript";
 import {
     // CounterWithHook,
-    LoginPage
+    LoginPage, UsersPage
 } from "./components";
 
 function App() {
@@ -19,7 +19,8 @@ function App() {
         {/*<BasicFunctions></BasicFunctions>*/}
         {/*<Counter></Counter>*/}
         {/*<CounterWithHook></CounterWithHook>*/}
-        <LoginPage></LoginPage>
+        {/*<LoginPage></LoginPage>*/}
+        <UsersPage></UsersPage>
     </main>
   )
 }
